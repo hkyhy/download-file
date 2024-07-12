@@ -1,5 +1,5 @@
 {
-  "name": "@hkyhy/custom-download",
+  "name": "@hkyhy/customize-file-retrieval",
   "version": "0.0.1",
   "description": "传入数据下载文件",
   "main": "index.js",
