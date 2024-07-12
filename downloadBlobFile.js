@@ -1,8 +1,6 @@
-import get from 'lodash/get';
-
 const downloadBlobFile = (res, fileName) => {
   let blob = new Blob([res], {
-    type: get(res, 'type')
+    type: res?.type
   });
   let objectUrl = URL.createObjectURL(blob);
   let a = document.createElement('a'); // 生成一个a元素

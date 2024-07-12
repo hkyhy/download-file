@@ -1,33 +1,12 @@
 {
   "name": "@hkyhy/customize-file-retrieval",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "传入数据下载文件",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "npm i --legacy-peer-deps",
-    "lint-staged": "lint-staged",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --config .prettierrc --write",
-      "git add"
-    ]
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Meetacoo-hjf",
-  "license": "ISC",
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^13.3.0",
-    "lodash": "^4.17.21",
-    "node-sass": "^9.0.0",
-    "prettier": "^3.3.2"
-  }
+  "license": "ISC"
 }
