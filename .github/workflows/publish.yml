@@ -24,4 +24,4 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.HKYHY_PACKAGE_PUBLISH}}
       - run: npm i -g cnpm
-      - run: npm i -g cnpm && cnpm sync @hkyhy/custom-download
+      - run: npm i -g cnpm && cnpm sync @hkyhy/customize-file-retrieval
