@@ -1,7 +1,7 @@
 {
   "name": "@hkyhy/download-file",
   "version": "0.0.2",
-  "description": "复制文案、元素、富文本内容到剪贴板",
+  "description": "传入数据下载文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
