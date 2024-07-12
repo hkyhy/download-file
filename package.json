@@ -1,6 +1,6 @@
 {
   "name": "@hkyhy/download-file",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "传入数据下载文件",
   "main": "index.js",
   "scripts": {
