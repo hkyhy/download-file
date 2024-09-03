@@ -1,6 +1,6 @@
 {
   "name": "@hkyhy/customize-file-retrieval",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "传入数据下载文件",
   "main": "index.js",
   "scripts": {
